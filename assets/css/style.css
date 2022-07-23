@@ -4,7 +4,7 @@
 }
 
 header {
-    background-image: url(/assets/images/Header.jpg);
+    background-color: rgba(158, 158, 247, 0.74);
     position: sticky;
     top: 0;
     display: flex;
@@ -15,7 +15,7 @@ header {
 }
 
 body {
-    background-color: hwb(240 62% 3% / 0.288);
+    background-color: rgba(158, 158, 247, 0.288);
 }
 
 header h1 {
@@ -38,6 +38,9 @@ header nav ul {
 }
 header nav ul li {
     margin: 15px;
+    border: solid aqua;
+    padding: 4px;
+    box-shadow: 10px 11px 5px 4px rgba(0, 0, 255, .2);
 }
 
 header nav ul li a {
@@ -70,9 +73,15 @@ header a {
     margin-left: 25px;
 }
 
+.description h2 {
+    font-size: 40px;
+    color: cornflowerblue;
+    padding: 20px;
+}
+
 .space {
     background-image: url(/assets/images/3164127.jpg);
-    padding: 100px;
+    padding: 85px;
 }
 
 .space {
@@ -85,30 +94,206 @@ header a {
     color: orange;
 }
 
-.contact li {
+.work-art {
+    display: flex;
+    justify-content: center;
+}
+
+.work-art div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-art h1 {
+    display: flex;
+    margin: 35px;
+    justify-content: center;
+    border-style: dashed double;
+    padding: 215px 85px 30px 25px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    color: rgb(0, 33, 180);
+    border-color: black;
+    font-size: 50px;
+}
+
+.work-art div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.contact-l h1 {
+    display: flex;
+    margin: 35px;
+    margin-right: auto;
+    justify-content: center;
+    border-style: dashed double;
+    padding: 70px 85px 30px 25px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    color: rgb(0, 33, 180);
+    border-color: black;
+    font-size: 50px;
+}
+
+.contact-l {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.LED a img {
+    border: solid cornflowerblue;
+    margin: 15px;
+    margin-bottom: auto;
+}
+
+.calc a img {
+    border: solid cornflowerblue;
+    margin: 5px;
+}
+
+.puzzle a img {
+    border: solid cornflowerblue;
+    margin: 15px;
+}
+
+.surf a img {
+    border: solid cornflowerblue;
+    margin: 15px;
+}
+
+.work-art a img {
+    opacity: 60%;
+}
+
+.work-art a img:hover {
+    opacity: 100%;
+}
+
+.run-bud a img {
+    border: solid cornflowerblue;
+    margin: 15px;
+}
+
+.run-bud {
+    position: relative;
+}
+
+.r-html {
+    position: absolute;
+    left: 18px;
+    bottom: 45px;
+    border: solid cornflowerblue;
+    border-left: none;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 255, .6);
+    color: aqua;
+    opacity: 60%;
+}
+
+.LED {
+    position: relative;
+}
+
+.l-html {
+    position: absolute;
+    left: 18px;
+    bottom: 45px;
+    border: solid cornflowerblue;
+    border-left: none;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 255, .6);
+    color: aqua;
+    opacity: 60%;
+}
+
+.calc {
+    position: relative;
+}
+
+.c-html {
+    position: absolute;
+    left: 5px;
+    bottom: 45px;
+    border: solid cornflowerblue;
+    border-left: none;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 255, .6);
+    color: aqua;
+    opacity: 60%;
+}
+
+.puzzle {
+    position: relative;
+}
+
+.p-html {
+    position: absolute;
+    left: 16px;
+    bottom: 45px;
+    border: solid cornflowerblue;
+    border-left: none;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 255, .6);
+    color: aqua;
+    opacity: 60%;
+}
+
+.surf {
+    position: relative
+}
+
+.s-html {
+    position: absolute;
+    left: 16px;
+    bottom: 45px;
+    border: solid cornflowerblue;
+    border-left: none;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 255, .6);
+    color: aqua;
+    opacity: 60%;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-me div ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 15px;
+}
+
+.contact h3 {
+    margin: 105px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    font-size: 30px;
 }
 
-.contact ul {
-    display: flex;
-    justify-content: center;
+.contact a {
+    text-decoration: none;
+    color: aqua;
+    padding: 5px;
+    border: solid aqua;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    background-color: rgba(158, 158, 247, 0.74);
 }
 
-.contact img {
-    display: flex;
-    justify-content: center;
-}
-
-#contact-me {
-    display: flex;
-    justify-content: space-between;
-}
-
-#contact-me ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+@media screen and (max-width=980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
 }
