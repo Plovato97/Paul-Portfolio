@@ -23,6 +23,7 @@ header h1 {
     margin: 25px;
     color: aqua;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
 }
 
 header nav {
@@ -40,7 +41,7 @@ header nav ul {
 header nav ul li {
     margin: 15px;
     border: solid aqua;
-    padding: 4px;
+    padding: 4px 15px 4px 15px;
     box-shadow: 10px 11px 5px 4px rgba(0, 0, 255, .2);
 }
 
@@ -93,6 +94,7 @@ header a {
     top: 145px;
     right: 20px;
     color: orange;
+    font-size: 35px;
 }
 
 .work-art h1 {
@@ -109,9 +111,14 @@ header a {
 
 .work-art {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     margin: auto;
+}
+
+.work-art div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact-l h1 {
@@ -139,7 +146,6 @@ header a {
 .LED a img {
     border: solid cornflowerblue;
     margin: 15px;
-    margin-bottom: auto;
 }
 
 .calc a img {
@@ -167,17 +173,18 @@ header a {
 
 .run-bud a img {
     border: solid cornflowerblue;
-    margin: 15px;
 }
 
 .run-bud {
     position: relative;
+    margin-bottom: auto;
+
 }
 
 .r-html {
     position: absolute;
-    left: 18px;
-    bottom: 45px;
+    left: 2px;
+    bottom: 170px;
     border: solid cornflowerblue;
     border-left: none;
     margin-bottom: auto;
@@ -188,7 +195,6 @@ header a {
 
 .LED {
     position: relative;
-    margin: auto;
 }
 
 .l-html {
@@ -260,7 +266,7 @@ header a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 15px;
+    padding: 30px;
 }
 
 .contact h3 {
@@ -273,7 +279,7 @@ header a {
 .contact a {
     text-decoration: none;
     color: aqua;
-    padding: 5px;
+    padding: 8px;
     border: solid aqua;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     background-color: rgba(158, 158, 247, 0.74);
@@ -293,4 +299,8 @@ header a {
         width: 100%;
         justify-content: center;
       }
+    .work-art {
+        display: flex;
+        flex-direction: column;
+    }
 }
