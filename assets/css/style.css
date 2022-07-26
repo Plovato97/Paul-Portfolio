@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     max-width: none;
     z-index: 9999;
+    position: -webkit-sticky;
 }
 
 body {
@@ -73,15 +74,15 @@ header a {
     margin-left: 25px;
 }
 
-.description h2 {
-    font-size: 40px;
+.description p {
+    font-size: 35px;
     color: cornflowerblue;
     padding: 20px;
 }
 
 .space {
     background-image: url(/assets/images/3164127.jpg);
-    padding: 85px;
+    width: 100%;
 }
 
 .space {
@@ -94,21 +95,8 @@ header a {
     color: orange;
 }
 
-.work-art {
-    display: flex;
-    justify-content: center;
-}
-
-.work-art div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .work-art h1 {
-    display: flex;
     margin: 35px;
-    justify-content: center;
     border-style: dashed double;
     padding: 215px 85px 30px 25px;
     border-left: none;
@@ -119,9 +107,10 @@ header a {
     font-size: 50px;
 }
 
-.work-art div {
+.work-art {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
 }
 
@@ -172,7 +161,7 @@ header a {
     opacity: 60%;
 }
 
-.work-art a img:hover {
+.work-art div img:hover {
     opacity: 100%;
 }
 
@@ -199,6 +188,7 @@ header a {
 
 .LED {
     position: relative;
+    margin: auto;
 }
 
 .l-html {
